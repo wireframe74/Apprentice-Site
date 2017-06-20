@@ -1,0 +1,179 @@
+
+	.aig-logo-wrapper {
+	    width: 0;
+	    float: left;
+	        z-index: 100000;
+	        position:relative;
+
+	} 
+
+.menu-global {
+    position: relative;
+    z-index: 100000000;
+}
+
+.aig-logo {
+    width: 138px; 
+    height: 43px;
+    display: inline-block;
+    padding: 0;
+    background: transparent url(../images/logo.svg) center center no-repeat;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position: 0 50%;
+    background-size: contain;
+    overflow: hidden;
+    text-indent: -9999em; 
+
+ 
+	&--white {
+
+
+	
+
+	background: transparent url(../images/logo.svg) center center no-repeat;
+	background-size: 93pt 33px;
+	vertical-align: middle;
+	padding-top: 5px;
+	margin-top: -7px;
+	position: absolute;
+	top: 0;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// MENU
+
+
+
+
+
+.aig-header__subnav-control--is-active[rel=menuitem]:after, 
+.aig-header__subnav-control--is-active[rel=menuitem]:focus:after, 
+.aig-header__subnav-control--is-active[rel=menuitem]:hover:after {
+    transform: rotate(-135deg);
+    top: 2px;
+}
+
+
+.closer-mobile a[rel=menuitem]:after, 
+.main-link:focus[rel=menuitem]:after, 
+.main-link:hover[rel=menuitem]:after, 
+.main-link[rel=menuitem]:after {
+    content: '';
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    overflow: hidden;
+    border: 1px solid #fff;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    opacity: .75;
+    position: relative;
+    left: 6px;
+    top: 0;
+    transform: rotate(-45deg);
+    transition: all .3s ease-out;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+
+
+
+.closer-mobile a[rel=menuitem]:after, 
+.main-link:focus[rel=menuitem]:after, 
+.main-link:hover[rel=menuitem]:after, 
+.main-link[rel=menuitem]:after {
+    content: '';
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    overflow: hidden;
+    border: 1px solid #fff;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    opacity: .75;
+    position: relative;
+    left: 6px;
+    top: 0;
+    transform: rotate(-45deg);
+    transition: all .3s ease-out;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+
+@media (min-width: 980px) {
+
+.closer-mobile a[rel=menuitem]:after, 
+.main-link:focus[rel=menuitem]:after, 
+.main-link:hover[rel=menuitem]:after, 
+.main-link[rel=menuitem]:after {
+    top: -4px;
+    transform: rotate(45deg);
+}
+
+
+}
+
+@media (min-width: 980px) {
+
+	.main-menu {
+	text-align: inherit;
+	position: static;
+	display: inline-block;
+	width:100%;
+	}
+
+	.main-menu > li {
+	display: inline-block;
+	position:relative;
+	float:left;
+
+	}
+
+	.main-link, 
+	.main-link:focus, 
+	.main-link:hover {
+	padding: 22px 25px;
+	margin: 0 1px;
+	font-size: 1rem;
+	}
+
+	.closer-mobile a, 
+	.main-link, 
+	.main-link:focus, 
+	.main-link:hover {
+	color: #FFF;
+	text-transform: uppercase;
+	line-height: 2;
+	}
+
+
+
+
+}
+
