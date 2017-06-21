@@ -1,0 +1,66 @@
+// @import "variables";
+.change {
+
+
+	.aig-logo.aig-logo--white {
+		@extend .aig-logo--white
+	}
+
+	.navbar-nav>li>a {
+    color: #333;
+    }
+
+
+	.header-icon {
+
+		&__search a{
+		background: url(../images/icons/search-dark.svg) top left no-repeat;
+		}
+
+		&__facebook a{
+		background: url(../images/icons/facebook-app-logo-dark.svg) top left no-repeat;
+		}
+
+	}
+
+	.main.home a {
+		background: url(../images/icons/home-dark.svg) top left no-repeat;
+	}
+
+
+}
+
+
+
+.reversed {
+
+
+
+	.aig-logo.aig-logo--white {
+		@extend .aig-logo--white
+	}
+
+	.navbar-nav>li>a {
+    color: #fff;
+    }
+
+
+	.header-icon {
+
+		&__search a{
+		background: url(../images/icons/search.svg) top left no-repeat;
+		}
+
+		&__facebook a{
+		background: url(../images/icons/facebook-app-logo.svg) top left no-repeat;
+		}
+
+	}
+
+	.main.home a {
+		background: url(../images/icons/home.svg) top left no-repeat;
+	}
+
+
+}
+

@@ -10,3 +10,58 @@
    	     line-height: 1.1rem; 
    } 
 }
+
+.owl-theme  .owl-nav [class*=owl-] {
+    position: absolute;
+    top: 50%;
+    margin-top: -18px;
+    left: -36px;
+    zoom: 1;
+    width: 42px;
+    height: 42px;
+    line-height: 32px;
+    border: none;
+    color: #666;
+    background-color: #FFF;
+    font-size: 18px;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    background:url(../images/icons/arrow.svg) no-repeat;
+    background-size: 14px; 
+    background-position:center center;
+
+    &:hover,
+    &:focus {
+    background:url(../images/icons/arrow.svg) no-repeat;
+    background-size: 14px; 
+    background-position:center center;
+    background-color:$primary-color;
+    }
+}
+ 
+.owl-theme  .owl-nav .owl-next {
+    left: auto;
+    right: -36px;
+}
+
+.owl-theme  .owl-nav [class*=owl-] {
+    opacity: 1;
+    left: -18px;
+    background-color:$purple;
+}
+
+.owl-theme  .owl-nav .owl-next {
+    left: auto;
+    right: -18px;
+}
+
+.owl-theme  .owl-nav .owl-prev {
+      -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg); 
+}

@@ -1,0 +1,98 @@
+// NO CSS SELECTORS
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-variant: normal;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    color: #2c2e2f;
+}
+
+
+body {
+    margin: 0;
+    font-size: 15px;
+    font-size: 1.07142857rem;
+    line-height: 1.5;
+  min-height: 1200px;
+}
+
+// *, ::after, ::before {
+//     box-sizing: inherit;
+// }
+
+
+ol,ul {
+list-style-type: none;
+padding-left: 0;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+#content p {
+    margin: 0 0 20px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color:#444444;
+}
+
+h1,
+h2,
+h3 {
+    @extend .heading-font;
+  
+}
+
+
+h2 {
+    margin-bottom: 40px;
+}
+
+h3 {
+    @extend .md-font;
+}
+
+
+p {
+    font-size: 1rem;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none
+}
+
+
+// FONT SIZES
+
+.lg-font { font-size: 3.2rem} 
+.md-font { font-size: 2.4rem} 
+.sm-font {font-size: 1rem}
+
+
+
+
+
+.dark-bg {
+    background-color: #6c7378;
+    background-image: radial-gradient(circle farthest-side at center bottom, #e15115, #e15115 125%);
+    color: #fff;
+}
+
+
+
+.aig-heading,
+h1,
+ {
+    line-height: 1.25;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+

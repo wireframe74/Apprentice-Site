@@ -15,7 +15,7 @@
 .hero__showDesktop {
 	display: none
 }
-@media (min-width:768px) {
+
 	.hero-container {
 		height: 475px;
 		overflow: hidden
@@ -41,20 +41,24 @@
 		margin-left: 0;
 		margin-top: 20px;
 			font-family:'Roboto Slab', serif;
+			&:hover {
+				text-decoration:none;
+			}
 	}
 	.hero .hero__paragraph {
-		padding-top: 30px;
+		padding-top: 20px;
 		padding-bottom: 10px;
 		font-family: 'Roboto', sans-serif;
 		font-weight: 400;
 		font-variant: normal;
 		font-size: 18px;
-		font-size: 1.28571429rem
+		font-size: 1.28571429rem;
+		color:#fff;
 	}
 	.hero__showDesktop {
 		display: block
 	}
-}
+
 @media (max-width:767px) {
 	.hero {
 		min-height: 240px

@@ -33,11 +33,11 @@ gulp.task('connect', function() {
 
 
 gulp.task('sass', function () {
- return gulp.src('./src/sass/**/*.scss')
+ return gulp.src('./sass/**/*.scss')
   .pipe(sourcemaps.init())
   .pipe(sass().on('error', sass.logError))
   .pipe(sourcemaps.write())
-  .pipe(gulp.dest('./src/css'))
+  .pipe(gulp.dest('css'))
   .pipe(connect.reload());
  
 });
@@ -63,7 +63,7 @@ gulp.task('watch',  function() {
 	// gulp.watch('src/js/*.js',['scripts']);
 	// gulp.watch('src/images/*',['imageMin']);
 	 livereload.listen();
-	gulp.watch('src/sass/**/*.scss',['sass']);
+	gulp.watch('./sass/**/*.scss',['sass']);
 
 	// gulp.watch('src/*.html',['copyHtml']);
 });

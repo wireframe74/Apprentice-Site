@@ -9,13 +9,44 @@
 
       $(function() {
 
-var p = $( "p:last" );
-var offset = p.offset();
-p.html( "left: " + offset.left + ", top: " + offset.top );
+  // ANIMATED SEARCH
+
+
+    $('a[href="#search"]').on('click', function(event) {
+        event.preventDefault();
+        $('#search').addClass('open');
+        $('#search > form > input[type="search"]').focus();
+    });
+    
+    $('#search, #search button.close').on('click keyup', function(event) {
+        if (event.target == this || event.target.className == 'close' || event.keyCode == 27) {
+            $(this).removeClass('open');
+        }
+    });
+    
+    $('form').submit(function(event) {
+        event.preventDefault();
+        return false;
+    })
 
 
 
-         var $siteheader = $('#aig-header');
+  // SCROLL ADD CLASS HEADER
+
+  $(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if(scroll >= 100) {
+        $(".aig-header").addClass("change");
+    } else {
+        $(".aig-header").removeClass("change");
+    }
+});
+
+
+
+
+  var $siteheader = $('#aig-header');
     var $megamenu = $siteheader.find('nav li .megamenu');
     var $pagecontent = $('#pagecontent');
 
@@ -23,7 +54,8 @@ p.html( "left: " + offset.left + ", top: " + offset.top );
     hoverTimeout = "";
     leaveTimeout = "";
     $siteheader.find('nav li.main').mouseenter(function() {
-        var $thisMegamenu = $(this).find('.megamenu')
+        var $thisMegamenu = $(this).find('.megamenu');
+         var $thisMegamenuUL = $(this).find('ul.megamenu--sub-menu')
         // stop any leaveTimeouts if they were triggered through guick back-and-forth hovering
         clearTimeout(leaveTimeout);
         // 1.
@@ -39,6 +71,7 @@ p.html( "left: " + offset.left + ", top: " + offset.top );
             } else {
               $megamenu.filter(':visible').stop(true, true).slideUp(500);
               $pagecontent.stop(true, true).animate({ paddingTop: '0'}, 500);
+           
             }
           } else {
             if( $thisMegamenu.length ) {
@@ -46,7 +79,9 @@ p.html( "left: " + offset.left + ", top: " + offset.top );
               clearTimeout(hoverTimeout); 
               $thisMegamenu.stop(true, true).slideDown(500);
               /* 16.5em is the set height of the megamenu + negative margin of nav ul */
-              $pagecontent.stop(true, true).animate({ paddingTop: '400px'}, 500);
+              $pagecontent.stop(true, true).animate({ paddingTop: '270px'}, 500);
+
+              
             }
           }
         }, 200);
@@ -58,21 +93,25 @@ p.html( "left: " + offset.left + ", top: " + offset.top );
         if( $megamenu.is(':visible') ) {
           $megamenu.filter(':visible').stop(true, true).slideUp(500);
           $pagecontent.stop(true, true).animate({ paddingTop: '0'}, 500);
+   
         }
       }, 200);
     });
 
 
 
-
-
+// END MEGA MENU
 
 
 
               $('.owl-carousel').owlCarousel({
                 loop: true,
                 margin: 10,
+                  nav: true,
+                   navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
                 responsiveClass: true,
+
+
                 
                 responsive: {
                   0: {
