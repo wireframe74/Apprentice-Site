@@ -63,7 +63,26 @@
 
 
  function scrolledHeaderClass() {
-   $siteheader.find('nav li.main').hover(
+
+var timer;
+
+$siteheader.find('nav li.main').hover(
+
+// function(){
+// clearTimeout(timer);
+// $siteheader.removeClass('change');
+// $siteheader.addClass('reversed');
+// },
+
+// function(){
+//   $siteheader.removeClass('reversed');
+//   timer = setTimeout(
+//     function(){
+//       $siteheader.addClass('change');
+//     }, 600)
+//  }
+
+
 
     function () {
       $siteheader.removeClass('change');
@@ -132,18 +151,18 @@
               $megamenu.filter(':visible').stop(true, true).hide();
               $thisMegamenu.stop(true, true).show();
             } else {
-              $megamenu.filter(':visible').stop(true, true).slideUp(300);
-              $pagecontent.stop(true, true).animate({ paddingTop: '0'}, 300);
+              $megamenu.filter(':visible').stop(true, true).slideUp(270);
+              $pagecontent.stop(true, true).animate({ paddingTop: '0'}, 270);
            
             }
           } else {
             if( $thisMegamenu.length ) {
               // stop any other hoverTimeouts triggered through guick back-and-forth hovering
               clearTimeout(hoverTimeout); 
-              $thisMegamenu.stop(true, true).slideDown(300);
+              $thisMegamenu.stop(true, true).slideDown(270);
 
               /* 16.5em is the set height of the megamenu + negative margin of nav ul */
-              $pagecontent.stop(true, true).animate({ paddingTop: '270px'}, 300);
+              $pagecontent.stop(true, true).animate({ paddingTop: '270px'}, 270);
 
               
             }
@@ -168,11 +187,15 @@
 
 
 
+
+
+
               $('.owl-carousel').owlCarousel({
                 loop: true,
                 margin: 10,
                   nav: true,
                    navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
+                   stagePadding: 50,
                 responsiveClass: true,
 
 
@@ -180,17 +203,24 @@
                 responsive: {
                   0: {
                     items: 1,
-                    nav: true
+                       nav: false
+
                   },
                   600: {
                     items: 3,
-                    nav: false
+                    nav: true,
+                         navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
+                responsiveClass: true
+
                   },
                   1000: {
-                    items: 4,
+                    items: 3,
                     nav: true,
                     loop: false,
-                    margin: 20
+                    margin: 10,
+                         navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
+                responsiveClass: true
+
                   }
                 }
               });

@@ -7,11 +7,25 @@
 
 
 
+.item-sm.item {
 
+  h4 a,
+  p {
+  font-size:.9rem;
+  }
+
+}
 
 .item {
 
-    padding: 1.1rem; 
+  h4 {
+    text-transform:none
+  }
+
+p {
+  margin-bottom:10px;
+}
+    padding: .2rem; 
     font-size: 1rem;
 
    &--title  a{

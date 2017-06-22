@@ -127,7 +127,7 @@ top: 0;
 left: 0;
 width: 100%;
 padding: 7em 0;
-height: 300px;
+height: 270px;
 overflow: hidden;
 background-color:$primary-color; 
 
@@ -307,56 +307,6 @@ text-decoration: none;
 
 
 
-
-// SCROLL
-
-.aig-header.change .aig-logo--white {
-    background-image: url(../images/logo-full.svg);
-}
-
-.aig-header.change {
-    background: #fff;
-    -webkit-transition: margin .3s ease-out 0s;
-    -moz-transition: margin .3s ease-out 0s;
-    -ms-transition: margin .3s ease-out 0s;
-    -o-transition: margin .3s ease-out 0s;
-    transition: margin .3s ease-out 0s;
-
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .2), 0 0 10px 1px rgba(255, 255, 255, .2);
-    position: fixed;
-
-    &:before {
-        background: none;
-    }
-
-    .main-link {
-        color: #333;
-        &:hover {
-            color: #fff;
-        }   
-    }
-}
-
-
-
-.aig-header.change .main-link[rel=menuitem]:after {
-    border: 1px solid #e15115;
-    border-top: 1px solid transparent;
-    border-left: 1px solid transparent;
-}
-
-
-.aig-header.change .header-buttons .aig-btn.aig-btn--outline-white, 
-.aig-header:not(.pp-header--submenu-open) .menu-button-wrapper .aig-btn.aig-btn--outline-white {
-    color: #e15115;
-    box-shadow: 0 0 0 1px #e15115, 0 0 0 1px #e15115;
-}
-
-.aig-header.change .header-buttons .aig-btn.aig-btn--white, 
-.aig-header.change .menu-button-wrapper .aig-btn.aig-btn--white {
-    background: #e15115;
-    color: #fff;
-}
 
 
 

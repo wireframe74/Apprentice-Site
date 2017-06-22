@@ -1,0 +1,942 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"im",
+				"imageMin"
+			],
+			[
+				"dis",
+				"display-flex"
+			],
+			[
+				"trN",
+				"transform-origin"
+			],
+			[
+				"prima",
+				"primary-color"
+			],
+			[
+				"footer",
+				"footer-menu"
+			],
+			[
+				"bod",
+				"body-copy"
+			],
+			[
+				"rewind",
+				"rewind_posts"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"primary",
+				"primary-font"
+			],
+			[
+				"sec",
+				"secondary-color"
+			],
+			[
+				"pri",
+				"primary-color"
+			],
+			[
+				"primar",
+				"primary-font"
+			],
+			[
+				"edit_pos",
+				"edit_post_link"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 19465,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "packagae",
+		"selected_items":
+		[
+			[
+				"packagae",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"git push",
+				"Git: Push Tags"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git remote",
+				"Git: Track Remote Branch"
+			],
+			[
+				"gita",
+				"Git: Add..."
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"lp",
+				"Package Control: List Packages"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"br",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 600.0
+	},
+	"console":
+	{
+		"height": 226.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/ai-group-html"
+	],
+	"file_history":
+	[
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/ai-group/PayPal Merchant Account and Merchant Services_files/styles.css",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/ai-group/gulpfile.js",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/ai-group/PayPal Merchant Account and Merchant Services_files/6e475171671745535d851e864e639ec2861e3f.css",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/ai-group/PayPal Merchant Account and Merchant Services_files/pa.js.download",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/ai-group/PayPal Merchant Account and Merchant Services_files/7126e4af3c6ef80dd0e93b6e6a14c362403f2d.js.download",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/ai-group/PayPal Merchant Account and Merchant Services_files/cf6a54202abfc62349a2715312a619de301254.js.download",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/ai-group/index.html",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/ai-group/out/styles.css/styles.css",
+		"/C/Users/Chris/Desktop/gulp/src/about.html",
+		"/C/Users/Chris/Desktop/gulp/src/index.html",
+		"/C/Users/Chris/Desktop/gulp/src/sass/index.scss",
+		"/C/Users/Chris/Desktop/gulp/dist/css/index.css",
+		"/C/Users/Chris/Desktop/gulp/gulpfile.js",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/templates/monthly-message-single-post.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/single.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/header.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/templates/brochure-download-success.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/inc/fees/diploma-in-floral-and-event-styling.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/templates/fees.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/inc/form/select-payment-dates.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/inc/form/select-course.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/plugins/chargebee_by_pinta/pages/create-subscription.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/templates/form-sign-up.php",
+		"/C/Users/Chris/Desktop/bak/academy-inspire-single-post.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/css/style.css",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/sass/_footer.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/mu-plugins/InstagramPluginOrganizerMU.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/templates/connect.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/templates/course-single.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/sass/_modules.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/inc/form/address_details_5_may_2017.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/templates/home-test.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/templates/home.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/plugins/chargebee_by_pinta/pages/create-customer.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/templates/sign-up.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/inc/form/address-details.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/sass/_buttons.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/sass/_forms.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/templates/inspire.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/js/functions.js",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/functions.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/sass/_fonts.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/header-new.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/footer.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/footer-new.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/sass/_globals.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/sass/_fees.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/inc/fees/certificate-in-destination-wedding-planning.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/.htaccess",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/inc/fees/advanced-diploma-in-special-event-planning-and-design.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/inc/fees/certificate-in-event-design.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/inc/fees/certificate-in-event-planning.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/inc/fees/certificate-in-wedding-planning.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/inc/fees/diploma-in-venue-coordination.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/inc/fees/diploma-in-wedding-and-event-planning.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/inc/fees/diploma-in-wedding-planning-styling-and-design.php",
+		"/C/Users/Chris/Desktop/wget-1.5.3/README",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/js/plugins.js",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/templates/academy-inspire-archive.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/plugins/chargebee_by_pinta/pages/thankyou.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/sass/_inspire.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/templates/about.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/monthly-message-single-post.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/single-new.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/404.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/sass/_sign-up.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/sass/_menu.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/sass/_course-detail.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/inc/form/select-course-bak.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/sass/_home.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-config.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/sftp-config.json",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/sass/_header.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/sass/_course-listing.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/sass/_icons.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/js/select-course.js",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/inc/form/select-payment-dates-bak.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20-demo-server/wp-content/plugins/chargebee_by_pinta/pages/create-subscription.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/sass/_variables.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/style.css",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/wp-content/themes/aawep/templates/courses.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/sftp-config.json",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/aawep-chargebee/aawep-chargebee.sublime-project",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/sass/_connect.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/sass/_home.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/sass/_course-listing.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/templates/courses.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/sass/_about.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/inc/form/select-payment-dates.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/inc/form/select-payment-dates-bak.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/inc/form/address-details.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/inc/form/address-details_.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/inc/form/select-course.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/templates/select-other-payment-options-beige-strip.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/functions.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/templates/brochure-download-success.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/templates/form-sign-up.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/js/functions.js",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/footer.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/templates/sign-up.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/sass/_sign-up.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/js/select-course.js",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/header.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/templates/connect.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/sass/_header.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/sass/_course-detail.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/sass/_fees.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/sass/_globals.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/config.rb",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/sass/_fonts.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/single-student-of-the-month.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/templates/inspire.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/sass/_inspire.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/templates/about.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/templates/student-of-the-month.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/css/style.css",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/templates/sign-up-bak.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/js/plugins.js",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/sass/_layout.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/css/font-icons.css",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/templates/fees.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/sass/_menu.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/templates/course-single.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/themes/wpa/sass/_modules.scss",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-content/plugins/chargebee_by_pinta/pages/thankyou.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/cache/zencache/cache/https/www-arabianweddingacademy-com/fees.html",
+		"/C/Users/Chris/Desktop/test.php",
+		"/C/Users/Chris/Dropbox/Apps/wamp/www/wpa-chargebee-jun-20/wp-config.php"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\themes\\aawep",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\themes\\aawep\\templates",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\themes\\aawep\\sass",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\plugins",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\themes\\aawep",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\themes\\aawep\\sass",
+			"<current file>",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\themes\\aawep\\inc\\fees",
+			"<current file>",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\themes\\aawep\\sass",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\themes\\aawep",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\themes\\aawep\\templates",
+			"<current file>",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\themes\\aawep",
+			"<current file>",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\themes\\aawep",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\plugins\\chargebee_by_pinta",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\themes\\aawep\\inc\\fees",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\themes\\aawep\\inc\\form",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\themes\\aawep\\sass",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\themes\\aawep\\templates",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\plugins\\chargebee_by_pinta",
+			"<current file>",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\themes\\aawep\\inc",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\themes\\aawep",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\themes\\aawep\\css",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\aawep-chargebee\\wp-content\\themes\\aawep\\sass",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\wpa-chargebee-jun-20\\wp-content\\themes\\wpa",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\wpa-chargebee-jun-20\\wp-content\\themes\\wpa\\sass",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\wpa-chargebee-jun-20\\wp-content\\themes\\wpa",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\wpa-chargebee-jun-20\\wp-content\\themes\\wpa\\sass",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\wpa-chargebee-jun-20\\wp-content\\themes\\wpa\\",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\wpa-chargebee-jun-20\\wp-content\\themes\\wpa\\sass",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\wpa-chargebee-jun-20\\wp-content\\plugins",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\wpa-chargebee-jun-20\\wp-content\\themes\\wpa",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\wpa-chargebee-jun-20\\wp-content\\themes",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\wpa-chargebee-jun-20\\wp-content\\themes\\wpa\\sass",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\wpa-chargebee-jun-20\\wp-content\\themes\\wpa",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\wpa-chargebee-jun-20",
+			"C:\\Users\\Chris\\Dropbox\\Apps\\wamp\\www\\wpa-chargebee-jun-20\\wp-content\\themes\\wpa",
+			"C:\\wamp\\www\\arabian-emirates-wp\\wp-content\\themes\\arabian-emirates\\sass",
+			"C:\\wamp\\www\\arabian-emirates-wp\\wp-content\\themes\\arabian-emirates\\inc",
+			"C:\\wamp\\www\\arabian-emirates-wp\\wp-content\\themes\\arabian-emirates\\sass",
+			"<current file>",
+			"C:\\wamp\\www\\arabian-emirates-wp\\wp-content\\themes\\arabian-emirates\\sass",
+			"C:\\wamp\\www\\arabian-emirates-wp\\wp-content\\themes\\arabian-emirates\\inc\\fees",
+			"C:\\wamp\\www\\arabian-emirates-wp\\wp-content\\themes\\arabian-emirates\\sass",
+			"C:\\wamp\\www\\arabian-emirates-wp\\wp-content\\themes\\arabian-emirates",
+			"C:\\wamp\\www\\arabian-emirates-wp\\wp-content\\themes\\arabian-emirates\\sass",
+			"C:\\wamp\\www\\arabian-emirates-wp\\wp-content\\themes\\arabian-emirates\\templates",
+			"C:\\wamp\\www\\arabian-emirates-wp\\wp-content\\themes\\arabian-emirates\\sass",
+			"C:\\wamp\\www\\arabian-emirates-wp\\wp-content\\themes\\arabian-emirates\\templates",
+			"C:\\wamp\\www\\arabian-emirates-wp\\wp-content\\themes\\arabian-emirates\\sass",
+			"C:\\wamp\\www\\arabian-emirates-wp\\wp-content\\themes\\arabian-emirates\\templates",
+			"C:\\wamp\\www\\arabian-emirates-wp\\wp-content\\themes\\arabian-emirates\\sass",
+			"<current file>",
+			"C:\\wamp\\www\\arabian-emirates-wp\\wp-content\\themes\\arabian-emirates\\sass",
+			"C:\\wamp\\www\\angc-nov\\wp-content\\themes\\angc-parramatta",
+			"C:\\wamp\\www\\angc-nov\\wp-content\\themes\\angc-parramatta\\",
+			"C:\\wamp\\www\\angc-nov\\wp-content\\themes\\angc-parramatta",
+			"C:\\wamp\\www\\angc-nov\\wp-content\\themes\\angc-parramatta\\css\\custom",
+			"C:\\wamp\\www\\caribbean\\wp-content\\themes",
+			"C:\\wamp\\www\\cityofparramatta\\wp-content\\themes\\angc-parramatta",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"js",
+			"Monthly<span class=\"em\"> Message",
+			"message",
+			"event-planning",
+			"wedding",
+			"\t\t\t<p><strong>Payment Plan with 0% APR</strong></p>\n",
+			"diploma-in-wedding-planning-styling-and-design",
+			"query",
+			"Single Post Template: Monthly Message Single Post",
+			"monthly-9",
+			"lity",
+			"class=\"latest-hangout-link\"",
+			"h2",
+			"profile",
+			"wordpres",
+			"https://www.weddingplanningacademy.co.uk",
+			"www.weddingplanningacademy.co.uk",
+			"ukawep",
+			"rewrite",
+			"weddingplann",
+			"www.weddingplanningacademy.co.uk",
+			"https://www.weddingplanningacademy.co.uk/",
+			"@",
+			"sideba",
+			"grav",
+			"formButton",
+			"grav",
+			"form",
+			"default.svg",
+			"$category ",
+			"certificate-in-event-design",
+			" <sup>+GST</sup>",
+			"$<?php echo $product->get_price(); ?>",
+			"fees",
+			"<sup>+GST</sup><sup>+GST</sup>",
+			"<sup>+GST</sup>",
+			"$<?php echo $product->get_price(); ?>",
+			"$<?php echo $product->get_price(); ?><span><sup>+GST</sup></span>",
+			"$<?php echo $product->get_price(); ?><span>+GST</span>",
+			"<?php echo $product->get_price(); ?><span>+ GST</span>",
+			"<span>+GST</span>",
+			"$<?php echo $product->get_price(); ?>",
+			"<?php echo $product->get_price(); ?>",
+			"All prices are in AUD",
+			"All prices are in AUD.",
+			"AUD",
+			"<",
+			"ip",
+			"content",
+			"youtube",
+			"response",
+			"newImg",
+			"button",
+			" ",
+			"$",
+			"-32px",
+			"-32px ",
+			"newImg ",
+			"$",
+			"section",
+			"$",
+			".btn-close",
+			"100",
+			"instagram",
+			"youtu",
+			"Processed on ",
+			".price-option",
+			"course-fees-wrap",
+			"51px",
+			"Our Core Values",
+			"APR",
+			"(Exc. GST).",
+			"All prices are in AUD (Excluding Gst).",
+			"total",
+			"Gst",
+			"GST",
+			"total",
+			".gform_wrapper ul",
+			"-40px",
+			".gform_wrapper ul",
+			".gform_wrappe",
+			"Monthly",
+			"on",
+			"Upfront Fee",
+			"hide-enrol",
+			"GBP",
+			"£",
+			"11",
+			"64",
+			"GBP",
+			"32",
+			"48",
+			"32",
+			"section.prices",
+			"default.s",
+			"preloader.gif",
+			".clear-menu-btn",
+			" ",
+			"13px",
+			"999",
+			"clear-menu-btn",
+			"valida",
+			"0",
+			":active",
+			"modal",
+			"890",
+			".table-align",
+			"options",
+			"190",
+			"140",
+			"300",
+			"2200",
+			"150",
+			"205",
+			"700",
+			"£",
+			"api",
+			"post_t",
+			"Initial Deposit:",
+			"£",
+			":selected",
+			"#266ca6",
+			"#f0856a",
+			"#footer",
+			"NON RECURRING ADDON CANNOT BE ADDED NOW AS INVOICE IS NOT RAISED IMMEDIATELY",
+			"html5blank_conditional_scripts",
+			"scriptname",
+			"js"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$<?php echo $product->get_price(); ?> <sup>+GST</sup>",
+			"$<?php echo $product->get_price(); ?> <sup>+GST</sup><sup>+GST</sup>",
+			"<sup>+GST</sup>",
+			"<sup>+GST</sup><sup>+GST</sup> ",
+			"$<?php echo $product->get_price(); ?><sup>+GST</sup>",
+			"$<?php echo $product->get_price(); ?><span><sup>+GST</sup></span>",
+			"$",
+			"AUD",
+			"$",
+			"#266ca6",
+			"&times;",
+			"@include display-flex();\n-js-display: flex",
+			"<div class=\"rel-wrap\"><div class=\"form-elem\">",
+			"</div>\n  </div>  </div>",
+			"<div class=\"form-elem\"><div class=\"rel-wrap\">",
+			"$light-beige",
+			"enrol",
+			"border-radius:3px;",
+			"text-decoration:none;",
+			"",
+			"display:inline-block;",
+			"10439",
+			"10404",
+			"<?php bloginfo('template_directory'); ?>/assets/landing-page-assets"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 19465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 148.0
+	},
+	"output.sftp":
+	{
+		"height": 253.0
+	},
+	"pinned_build_system": "",
+	"project": "ai-group-dev.sublime-project",
+	"replace":
+	{
+		"height": 94.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"home.php",
+				"wp-content\\themes\\aawep\\templates\\home.php"
+			],
+			[
+				"connect",
+				"wp-content\\themes\\aawep\\templates\\connect.php"
+			],
+			[
+				"functions.php",
+				"wp-content\\themes\\aawep\\functions.php"
+			],
+			[
+				"_mod",
+				"wp-content\\themes\\aawep\\sass\\_modules.scss"
+			],
+			[
+				"footer",
+				"wp-content\\themes\\aawep\\footer.php"
+			],
+			[
+				"_gl",
+				"wp-content\\themes\\aawep\\sass\\_globals.scss"
+			],
+			[
+				"course",
+				"wp-content\\themes\\aawep\\templates\\course-single.php"
+			],
+			[
+				"modules",
+				"wp-content\\themes\\aawep\\sass\\_modules.scss"
+			],
+			[
+				"function",
+				"wp-content\\themes\\aawep\\functions.php"
+			],
+			[
+				"functions",
+				"wp-content\\themes\\aawep\\functions.php"
+			],
+			[
+				"single",
+				"wp-content\\themes\\aawep\\single.php"
+			],
+			[
+				"header",
+				"wp-content\\themes\\aawep\\header.php"
+			],
+			[
+				"func",
+				"wp-content\\themes\\aawep\\functions.php"
+			],
+			[
+				"_forms",
+				"wp-content\\themes\\aawep\\sass\\_forms.scss"
+			],
+			[
+				"funcions",
+				"wp-content\\themes\\aawep\\functions.php"
+			],
+			[
+				"_fo",
+				"wp-content\\themes\\aawep\\sass\\_forms.scss"
+			],
+			[
+				"_for",
+				"wp-content\\themes\\aawep\\sass\\_forms.scss"
+			],
+			[
+				"functions.p",
+				"wp-content\\themes\\aawep\\functions.php"
+			],
+			[
+				"functions.ph",
+				"wp-content\\themes\\aawep\\functions.php"
+			],
+			[
+				"functions.js",
+				"wp-content\\themes\\aawep\\js\\functions.js"
+			],
+			[
+				"inspire",
+				"wp-content\\themes\\aawep\\templates\\inspire.php"
+			],
+			[
+				"fees.php",
+				"wp-content\\themes\\wpa\\templates\\fees.php"
+			],
+			[
+				"fees",
+				"cache\\zencache\\cache\\https\\www-arabianweddingacademy-com\\fees.html"
+			],
+			[
+				"functio",
+				"wp-content\\themes\\wpa\\functions.php"
+			],
+			[
+				"course-single",
+				"wp-content\\themes\\wpa\\templates\\course-single.php"
+			],
+			[
+				"w",
+				"wp-config.php"
+			],
+			[
+				"learn",
+				"wp-content\\themes\\wpa\\templates\\learn.php"
+			],
+			[
+				"header.php",
+				"wp-content\\themes\\wpa\\header.php"
+			],
+			[
+				"sftp",
+				"sftp-config.json"
+			],
+			[
+				"functions.j",
+				"wp-content\\themes\\wpa\\js\\functions.js"
+			],
+			[
+				"_wooco",
+				"wp-content\\themes\\arabian-emirates\\sass\\_woocommerce.scss"
+			],
+			[
+				"config",
+				"wp-content\\themes\\arabian-emirates\\config.rb"
+			],
+			[
+				"config.rb",
+				"wp-content\\themes\\arabian-emirates\\config.rb"
+			],
+			[
+				"_m",
+				"wp-content\\themes\\arabian-emirates\\sass\\_modules.scss"
+			],
+			[
+				"fnctions",
+				"wp-content\\themes\\arabian-emirates\\functions.php"
+			],
+			[
+				"functons.js",
+				"wp-content\\themes\\arabian-emirates\\js\\functions.js"
+			],
+			[
+				"_header",
+				"wp-content\\themes\\arabian-emirates\\sass\\_header.scss"
+			],
+			[
+				"about.php",
+				"wp-content\\themes\\arabian-emirates\\templates\\about.php"
+			],
+			[
+				"_ab",
+				"wp-content\\themes\\arabian-emirates\\sass\\_about.scss"
+			],
+			[
+				"_glo",
+				"wp-content\\themes\\arabian-emirates\\sass\\_globals.scss"
+			],
+			[
+				"forms.sc",
+				"wp-content\\themes\\arabian-emirates\\sass\\_forms.scss"
+			],
+			[
+				"_globa",
+				"wp-content\\themes\\arabian-emirates\\sass\\_globals.scss"
+			],
+			[
+				"home",
+				"wp-content\\themes\\arabian-emirates\\templates\\home.php"
+			],
+			[
+				"head",
+				"wp-includes\\theme-compat\\header.php"
+			],
+			[
+				"funct",
+				"functions.php"
+			],
+			[
+				"lear",
+				"templates\\learn.php"
+			],
+			[
+				"globa",
+				"sass\\_globals.scss"
+			],
+			[
+				"cours",
+				"templates\\course-single.php"
+			],
+			[
+				"_menu",
+				"sass\\_menu.scss"
+			],
+			[
+				"course-s",
+				"templates\\course-single.php"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"about",
+				"templates\\about.php"
+			],
+			[
+				"_ac",
+				"sass\\_academy-tv.scss"
+			],
+			[
+				"heder",
+				"header.php"
+			],
+			[
+				"full",
+				"wp-content\\themes\\arabian-emirates\\templates\\full-width.php"
+			],
+			[
+				"fonts",
+				"wp-content\\themes\\arabian-emirates\\sass\\_fonts.scss"
+			],
+			[
+				"home.",
+				"wp-content\\themes\\angc-parramatta\\home.php"
+			],
+			[
+				"loop",
+				"wp-content\\themes\\angc-parramatta\\loop.php"
+			],
+			[
+				"wp-con",
+				"wp-config.php"
+			],
+			[
+				"_cust",
+				"wp-content\\themes\\caribbean\\assets\\css\\_customise.scss"
+			],
+			[
+				"_cus",
+				"wp-content\\themes\\caribbean\\assets\\css\\_customise.scss"
+			],
+			[
+				"cous",
+				"wp-content\\themes\\caribbean\\templates\\courses-single.php"
+			],
+			[
+				"_yuc",
+				"wp-content\\themes\\caribbean\\assets\\css\\_yuck.scss"
+			],
+			[
+				"front",
+				"wp-content\\themes\\prosolutions\\front-page.php"
+			],
+			[
+				"leaf",
+				"wp-content\\themes\\prosolutions\\leaf.php"
+			],
+			[
+				"fucntions",
+				"wp-content\\themes\\prosolutions\\functions.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 750.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 570.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 568.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
