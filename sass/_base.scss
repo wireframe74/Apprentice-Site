@@ -13,11 +13,13 @@ html {
 
 
 body {
-    margin: 0;
-    font-size: 15px;
-    font-size: 1.07142857rem;
-    line-height: 1.5;
-  min-height: 1200px;
+margin: 0;
+font-size: 15px;
+font-size: 1.07142857rem;
+line-height: 1.5;
+min-height: 1200px;
+@extend .body-copy;
+background-color: #FFF;
 }
 
 // *, ::after, ::before {
@@ -35,11 +37,28 @@ dl, ol, ul {
     margin-bottom: 1rem;
 }
 
- p {
-    margin: 0 0 20px;
-    font-size: 1rem;
-    line-height: 1.6rem;
-    color:#444444;
+.main-content-area {
+    ul {
+        li {
+
+         background: url(../images/bullet.gif) top 7px left no-repeat;
+        padding-left: 14px;
+        margin: 10px 0;
+        background-size: 6px;
+        font-size: 1rem;
+          
+        }
+    }
+}
+
+
+
+p {
+margin: 0 0 20px;
+font-size: 1rem;
+line-height: 1.5rem;
+color:#444444;
+@extend .body-copy;
 }
 
 h1,
@@ -52,6 +71,7 @@ h3 {
 
 h2 {
     margin-bottom: 40px;
+    @extend .md-font;
 }
 
 h3 {
@@ -80,8 +100,8 @@ a:focus {
 
 // FONT SIZES
 
-.lg-font { font-size: 3.2rem} 
-.md-font { font-size: 2.4rem} 
+.lg-font { font-size: 3.5rem} 
+.md-font { font-size: 2.7rem} 
 .sm-font {font-size: 1rem}
 
 

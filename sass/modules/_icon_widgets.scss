@@ -1,4 +1,25 @@
+
+	
+.quicklinks {
+
+	.col-xs-6 {
+		@media (max-width:550px) {
+		width:100%;
+		margin-bottom: 20px;
+		}
+	}
+
+}
+
+
 .icon-widget {
+
+
+	&__light-grey {
+	background-color:#fafafa;
+	padding: 30px;
+	}
+
 
 	@media (max-width:767px) {
 		margin-bottom: 30px
@@ -70,6 +91,10 @@
 
 
 
+
+
+
+
 	&__rev {
 		
 		color: #fff;
@@ -77,6 +102,22 @@
 		p {
 			color:#fff;
 		}
+	}
+
+
+	&__image {
+			padding: 0;
+			background-color:#fafafa;
+			
+			 img {
+			 	width: 100%;
+			 	height: auto;
+			 }
+			
+
+			.space-text {
+			padding: 10px 30px 30px;
+			}
 	}
 
 

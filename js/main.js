@@ -7,9 +7,45 @@
 
 
 
-      $(function() {
+$(function() {
 
 
+var pContainerHeight = jQuery('.bird-box').height();
+
+jQuery(window).scroll(function($){
+
+  var wScroll = jQuery(this).scrollTop();
+
+  if (wScroll <= pContainerHeight) {
+
+    jQuery('.hero--headline').css({
+    'transform' : 'translate(0px, '+ wScroll /2 +'%)'
+    });
+
+    jQuery('.hero--paragraph').css({
+    'transform' : 'translate(0px, '+ wScroll /2.6 +'%)'
+    });
+
+    jQuery('.hero--btn').css({
+    'transform' : 'translate(0px, -'+ wScroll /40 +'%)'
+    });
+
+  }
+
+
+
+});
+
+
+
+
+$( "#jobs-listing .applybutton a").text("View this Job");
+$( "#rightcolumn .applybutton a").text("Apply Today");
+
+
+         $('#findaspecialist input, #findaspecialist select').addClass('form-control');
+
+$('#st-accordion').accordion();
 
         //Responsive Menu  
     $(".menu-button").click(function () {

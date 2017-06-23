@@ -21,11 +21,18 @@
 
         display: block;
     position: relative;
-    max-width: 320px;
+    max-width: 290px;
     border-radius:40px;
+
+    @media (max-width:550px) {
+    	width:100%;
+    	max-width:none;
+    }
+    
     &:hover {
     	color:#fff;
     	transition: background .2s;
+        background-color: $dark-grey;
     }
 
 
@@ -33,7 +40,7 @@
     padding: 5px 10px;
     max-width: 200px;
     font-weight: normal;
-    min-width:200px;
+    min-width:180px;
 
         &:hover {
             background-color: $dark-grey;
